@@ -1162,7 +1162,7 @@ focus_tree = {
 
 	focus = {
 		id = SIC_agrarians
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_ideology_communist
 		cost = 8
 		x = -7
 		y = 1
@@ -1380,7 +1380,7 @@ focus_tree = {
 
 	focus = {
 		id = SIC_syndicalists
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_ideology_syndicalist
 		cost = 8
 		x = 7
 		y = 1
@@ -1542,7 +1542,7 @@ focus_tree = {
 
 	focus = {
 		id = SIC_syndicalist_foundries
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_SIC_agrarian_foundries
 		cost = 8
 		x = 0
 		y = 1
@@ -1694,7 +1694,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_communizing_asterion
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_commune_politics
 		cost = 8
 		x = 0
 		y = 1
@@ -1759,7 +1759,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_communizing_cyanlosia
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_commune_politics
 		cost = 8
 		x = 0
 		y = 1
@@ -1821,7 +1821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_communizing_blackrock
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_commune_politics
 		cost = 8
 		x = 0
 		y = 1
@@ -1883,7 +1883,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_communizing_falcoria
-		icon = GFX_focus_sic_communism_flag
+		icon = GFX_goal_commune_politics
 		cost = 8
 		x = 0
 		y = 1
@@ -9002,7 +9002,7 @@ focus_tree = {
 
 	focus = {
 		id = SIC_the_fatherland_calls
-		icon = GFX_SIC_facing_the_sun
+		icon = GFX_SIC_sycaceia_calls_us_to_battle
 		prerequisite = { focus = SIC_the_east_tamed }
 		prerequisite = { focus = SIC_the_north_reclaimed }
 		prerequisite = { focus = SIC_the_west_seized }
@@ -9080,7 +9080,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_empire_endures
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_gri
 		prerequisite = { focus = SIC_FRD_merging_administrations }
 		prerequisite = { focus = SIC_FRD_our_autonomy }
 		cost = 1
@@ -9115,7 +9115,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_southern_economy
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_state_economy
 		prerequisite = { focus = SIC_FRD_the_empire_endures }
 		cost = 6
 		x = -6
@@ -9131,7 +9131,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_invest_in_infrastructure
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = SIC_FRD_the_southern_economy }
 		cost = 6
 		x = -1
@@ -9147,7 +9147,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_invest_in_supplies
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_TEM_harrass_supply_lines
 		prerequisite = { focus = SIC_FRD_the_southern_economy }
 		cost = 6
 		x = 1
@@ -9165,7 +9165,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_southern_will
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_SIC_make_compromises
 		prerequisite = { focus = SIC_FRD_the_empire_endures }
 		cost = 6
 		x = -3
@@ -9183,7 +9183,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_southern_military
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = SIC_FRD_the_empire_endures }
 		cost = 6
 		x = 0
@@ -9199,7 +9199,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_ref_the_mil
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = SIC_FRD_the_southern_military }
 		cost = 6
 		x = -1
@@ -9220,7 +9220,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_newshp
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_focus_generic_navy_battleship3alt
 		prerequisite = { focus = SIC_FRD_the_southern_military }
 		cost = 6
 		x = 1
@@ -9242,7 +9242,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_empire_reborn
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_SIC_return_in_karthin
 		prerequisite = { focus = SIC_the_fatherland_calls }
 		mutually_exclusive = { focus = SIC_FRD_the_imperial_restoration2 }
 		available = {
@@ -9280,7 +9280,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_border_guard_rallies
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_griffon_soldier
 		prerequisite = { focus = SIC_FRD_the_empire_reborn }
 		cost = 6
 		x = 0
@@ -9295,7 +9295,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_sketch_industrial_plans
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_generic_lau_industry
 		prerequisite = { focus = SIC_FRD_the_empire_reborn }
 		cost = 6
 		x = 2
@@ -9310,7 +9310,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_the_invasion
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_doctrine_tank_warfare
 		prerequisite = { focus = SIC_FRD_the_border_guard_rallies }
 		prerequisite = { focus = SIC_FRD_sketch_industrial_plans }
 		cost = 6
@@ -9341,7 +9341,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_return_to_griffenheim
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_GRI_heavy_tank
 		prerequisite = { focus = SIC_FRD_the_invasion }
 		available = {
 			owns_state = 382
@@ -9366,7 +9366,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_aquelia
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_aquileia
 		prerequisite = { focus = SIC_FRD_return_to_griffenheim }
 		cost = 6
 		x = 0
@@ -9380,7 +9380,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_FRD_ravage_the_southwest
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = SIC_FRD_aquelia }
 		cost = 6
 		x = 0
@@ -9400,7 +9400,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_republic
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_griffonian_republic
 		prerequisite = { focus = SIC_FRD_return_to_griffenheim }
 		cost = 6
 		x = 2
@@ -9414,7 +9414,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_FRD_tame_the_far_north
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_focus_indy_swing_the_sword
 		prerequisite = { focus = SIC_FRD_republic }
 		cost = 6
 		x = 0
@@ -9432,7 +9432,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_riverlands
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_riv_dreams_of_the_federation
 		prerequisite = { focus = SIC_FRD_return_to_griffenheim }
 		cost = 6
 		x = 4
@@ -9446,7 +9446,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIC_FRD_secure_griffonia
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_solar_attack_griffonia
 		prerequisite = { focus = SIC_FRD_riverlands }
 		cost = 6
 		x = 0
@@ -9466,7 +9466,7 @@ focus_tree = {
 	
 	focus = {
 		id = SIC_FRD_across_the_seas
-		icon = GFX_SIC_the_decadent_regency_2
+		icon = GFX_goal_NLR_Nova_Griffonia
 		prerequisite = { focus = SIC_FRD_ravage_the_southwest }
 		prerequisite = { focus = SIC_FRD_tame_the_far_north }
 		prerequisite = { focus = SIC_FRD_secure_griffonia }
